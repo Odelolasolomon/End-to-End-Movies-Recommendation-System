@@ -77,13 +77,13 @@ To set up the environment and run the project:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/movie-recommendation-system.git
+   git clone https://github.com/Odelolasolomon/movie-recommendation-system.git
    cd movie-recommendation-system
 
 2. Create a virtual Environment 
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python -m venv movievenv
+   source movievenv/bin/activate  # On Windows: venv\Scripts\activate
 
 ## Dependencies
 - The following libraries are required to run this project:
