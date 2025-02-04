@@ -44,31 +44,48 @@ To set up the environment and run the project:
    git clone https://github.com/your-username/movie-recommendation-system.git
    cd movie-recommendation-system
 
-## Create a virtual Environment 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+2. Create a virtual Environment 
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-## Install dependencies
-```bash
-pip install -r requirements.txt
+## Dependencies
+- The following libraries are required to run this project:
+
+- numpy>=1.21.0
+- pandas>=1.3.0
+- scikit-learn>=0.24.2
+- streamlit>=1.22.0
+- plotly>=5.13.0
+- matplotlib>=3.4.3
+- seaborn>=0.11.2
+- python-dateutil>=2.8.2
+- Install them using: 
+
+
+3. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+
+
 
 - Place your dataset (movies.csv) in the data directory.
 
 ## Usage
 ### Running the Script
-- Execute the main script to process the data, perform EDA, engineer features, and build the recommendation system: 
-```bash
-python main.py
+4. Execute the main script to process the data, perform EDA, engineer features, and build the recommendation  
+   ```bash
+   python main.py
 
 ### Running the Dashboard
-### Start the Streamlit dashboard for interactive exploration:
-```bash
-streamlit run streamlit_app.py
+5. Start the Streamlit dashboard for interactive exploration:
+   ```bash
+   streamlit run streamlit_app.py
 
 - Open the provided URL in your browser to access the dashboard.
 
 ## File Structure 
+```Structure
 movie-recommendation-system/
 ├── data/
 │   └── movies.csv
@@ -85,6 +102,7 @@ movie-recommendation-system/
 ├── requirements.txt
 └── README.md
 
+
 - data/ : Contains the raw dataset (movies.csv).
 - Outputs/ : Stores generated visualizations and processed data.
 - data_loader.py : Handles loading and cleaning of the dataset.
@@ -96,27 +114,4 @@ movie-recommendation-system/
 - requirements.txt : Lists all required Python packages.
 - README.md : Documentation for the project.
 
-## Dependencies
-- The following libraries are required to run this project:
-
-- numpy>=1.21.0
-- pandas>=1.3.0
-- scikit-learn>=0.24.2
-- streamlit>=1.22.0
-- plotly>=5.13.0
-- matplotlib>=3.4.3
-- seaborn>=0.11.2
-- python-dateutil>=2.8.2
-- Install them using: 
-
-```bash
-pip install -r requirements.txt
-
-## Contributing
-### Contributions are welcome! To contribute:
-
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Commit your changes and push to your fork.
-Submit a pull request detailing your changes
 
